@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LEVEL 1 - Greetings and Introductions</title>
+  <link rel="stylesheet" href="styles.css?v=2.0">
+</head>
+<body>
+  <div class="app">
+    <h1>Level 1: Greetings and Introductions</h1>
+
+    <!-- Form nama siswa -->
+    <div id="start-screen">
+      <label for="student-name">Masukkan Nama Kamu:</label>
+      <input type="text" id="student-name" placeholder="Nama Lengkap" autocomplete="off" />
+      <button onclick="startQuiz()">Mulai Kuis</button>
+    </div>
+
+    <!-- Kuis -->
+    <div class="quiz" id="quiz-container" style="display: none;">
+      <h2 id="question">Question goes here</h2>
+      <div id="answer-buttons">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <button id="next-button" class="btn">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js?v=1.0"></script> <!-- Versi manual -->
+  <!-- atau -->
+  <script src="script.js?v=<?= time() ?>"></script> <!-- Jika pakai PHP -->
+  <!-- atau -->
+  <script src="script.js?v=202507121305"></script> <!-- Timestamp manual -->
+
+
+</body>
+</html>

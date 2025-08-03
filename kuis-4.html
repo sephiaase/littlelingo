@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LEVEL 4 - School and Friends</title>
+  <link rel="stylesheet" href="styles.css?v=2.0">
+</head>
+<body>
+  <div class="app">
+    <h1>Level 4: School and Friends</h1>
+
+    <!-- Form nama siswa -->
+    <div id="start-screen">
+      <label for="student-name">Masukkan Nama Kamu:</label>
+      <input type="text" id="student-name" placeholder="Nama Lengkap" autocomplete="off" />
+      <button onclick="startQuiz()">Mulai Kuis</button>
+    </div>
+
+    <!-- Kuis -->
+    <div class="quiz" id="quiz-container" style="display: none;">
+      <h2 id="question">Question goes here</h2>
+      <div id="answer-buttons">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <button id="next-button" class="btn">Next</button>
+    </div>
+  </div>
+
+  <script>
+    // Override endpoint API khusus untuk kuis 4
+    const customApiUrl = "kuis-api-4.php"; // pastikan kamu punya file ini
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>

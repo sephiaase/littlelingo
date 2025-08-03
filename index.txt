@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+
+    <title>Little Lingo - English for Elementary Schooler</title>
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <!-- Tailwind css -->
+    <link rel="stylesheet" href="assets/css/tailwindcss.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap" class="relative">
+      <!-- Navbar Start -->
+      <div class="navigation fixed top-0 left-0 w-full z-30 duration-300">
+        <div class="container px-4">
+          <nav
+            class="
+              navbar
+              py-1
+              navbar-expand-lg
+              flex
+              justify-between
+              items-center
+              relative
+              duration-300
+            "
+          >
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo.png" alt="Logo" class="h-1" />
+            </a>
+            <button class="navbar-toggler focus:outline-none block lg:hidden">
+              <span
+                class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[4px]
+                "
+              </span>
+              <span
+                class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                "
+              >
+              </span>
+              <span
+                class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                "
+              >
+              </span>
+            </button>
+
+            <div
+              class="
+                collapse
+                navbar-collapse
+                hidden
+                lg:block
+                duration-300
+                shadow
+                absolute
+                top-full
+                left-0
+                mt-full
+                bg-white
+                z-20
+                px-5
+                py-3
+                w-full
+                lg:static lg:bg-transparent lg:shadow-none
+              "
+              id="navbarSupportedContent"
+            >
+              <ul
+                class="navbar-nav mr-auto justify-center items-center lg:flex"
+              >
+                <li class="nav-item">
+                  <a class="page-scroll nav-link active text-black" href="#hero-area"
+                    >Halaman Utama</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll nav-link text-grey" href="#services">Tentang</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll nav-link text-grey" href="#team">Kelas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="page-scroll nav-link text-grey" href="#feature">Fitur</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="page-scroll nav-link" href="#article">Artikel</a>
+                </li> -->
+              </ul>
+            </div>
+            <div
+              class="
+                header-btn
+                hidden
+                sm:block sm:absolute sm:right-0 sm:mr-16
+                lg:static lg:mr-0
+              "
+            >
+              <!-- <a
+                class="
+                  text-blue-600
+                  border border-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-600 hover:text-white
+                "
+                href="login page/register-pengguna.php"
+              >
+                DAFTAR</a
+              > -->
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- Hero Area Start -->
+    <section id="hero-area" class="bg-white pt-48 pb-10">
+      <div class="container px-4">
+        <div class="flex justify-between">
+          <div class="w-full text-center">
+            <h2 class="text-4xl font-bold leading-snug text-gray-700 mb-10">
+              Hello, Class! Welcome to <br class="hidden lg:block" />
+              <strong>Little Lingo!</strong>
+            </h2>
+            <div class="text-center mb-10">
+              <a
+                href="#team"
+                rel="nofollow"
+                class="
+                  text-white
+                  bg-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-500
+                "
+              >
+                Explore Now</a
+              >
+            </div>
+            <div class="text-center">
+              <img class="img-fluid mx-auto" src="assets/img/cat_desk.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Area End -->
+
+    <!-- Services Section Start -->
+    <section id="services" class="py-24">
+      <div class="container px-4">
+        <div class="text-center">
+          <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+            Kenapa Kamu Harus Belajar Bahasa Inggris?
+          </h2>
+        </div>
+        <div class="flex flex-wrap">
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-timer"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Waktu Terbaikmu Menyerap Bahasa Baru!
+                </h3>
+                <p class="text-gray-600">
+                  Sekarang adalah waktu terbaik buat kamu belajar bahasa baru karena otakmu
+                  sedang sangat cepat belajar. Jadi, kalau kamu belajar bahasa Inggris sekarang,
+                  kamu akan lebih mudah pintar!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-pencil-alt"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Bikin Kamu Lebih Jago Membaca dan Menulis
+                </h3>
+                <p class="text-gray-600">
+                  Belajar bahasa Inggris bisa bantu kamu lebih cepat membaca, menulis,
+                  dan memahami cerita — baik dalam bahasa Inggris maupun bahasa Indonesia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-world"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Bahasa Inggris Dipakai di Seluruh Dunia
+                </h3>
+                <p class="text-gray-600">
+                  Kalau kamu bisa bahasa Inggris, kamu bisa ngobrol dengan orang dari
+                  negara lain, nonton video atau film luar negeri tanpa bingung, dan
+                  ikut dalam dunia yang lebih luas!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-microphone"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Membuat Kamu Lebih Percaya Diri
+                </h3>
+                <p class="text-gray-600">
+                  Bisa ngomong bahasa Inggris bikin kamu lebih berani dan percaya diri di
+                  depan teman-teman dan guru. Kamu juga bisa ikut lomba bahasa Inggris dan
+                  bertemu teman baru!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-mobile"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Bisa Akses Ilmu dan Game dari Internet
+                </h3>
+                <p class="text-gray-600">
+                  Banyak game, video belajar, dan aplikasi keren di internet pakai bahasa
+                  Inggris. Kalau kamu bisa bahasanya, kamu bisa lebih mudah belajar dan
+                  bermain sambil belajar!
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <div class="m-4">
+              <div class="mb-4 text-blue-600 text-5xl">
+                <i class="lni lni-cogs"> </i>
+              </div>
+              <div>
+                <h3
+                  class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  "
+                >
+                  Melatih Otakmu Jadi Lebih Kreatif
+                </h3>
+                <p class="text-gray-600">
+                  Belajar bahasa Inggris bikin kamu belajar berpikir dengan cara yang
+                  berbeda, jadi kamu bisa lebih kreatif dan pintar cari solusi saat
+                  menghadapi masalah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Team Section Start -->
+    <section id="team" class="py-24 text-center">
+      <div class="container px-4">
+        <div class="text-center">
+          <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+            Ikuti Kelas Bahasa Inggris Kami
+          </h2>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          
+          <!-- Level 1 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-1.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level1.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">Greetings and Introductions</h3>
+                  <p>Mulai Berkenalan Dengan Lebih Banyak Orang</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Level 2 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-2.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level2.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">Talking About Favorite Things</h3>
+                  <p>Berbincang Tentang Hal Yang Kamu Sukai</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Level 3 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-3.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level3.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">Daily Activities</h3>
+                  <p>Menghabiskan Satu Hari Bersamaku</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Level 4 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-4.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level4.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">School and Friends</h3>
+                  <p>Kenal Lebih Dekat Dengan Aku Dan Temanku Di Sekolah</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Level 5 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-5.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level5.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">My Experiences</h3>
+                  <p>Kegiatan Yang Paling Berkesan Untuk Kamu</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Level 6 -->
+          <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+            <a href="menu-6.php" class="block h-full">
+              <div class="m-3 text-center bg-white shadow duration-300 group hover:shadow-lg">
+                <div class="team-img relative">
+                  <img class="img-fluid" src="assets/img/team/level6.png" alt="" />
+                  <div class="w-full h-full flex items-center justify-center absolute top-0 left-0 bg-white bg-opacity-60 duration-300 opacity-0 group-hover:opacity-100"></div>
+                </div>
+                <div class="text-center px-5 py-3">
+                  <h3 class="text-gray-800 font-bold uppercase text-lg my-2">My Future & My Dreams</h3>
+                  <p>Menceritakan Tentang Keinginan Dan Mimpimu Di Masa Depan</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <a href="login-pengguna.php" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow transition">
+            Masuk Sebagai Pengajar
+          </a>
+
+        </div>
+      </div>
+    </section>
+    <!-- Team Section End -->
+
+
+    <!-- Feature Section Start -->
+    <div id="feature" class="bg-blue-100 py-20">
+      <div class="container px-8">
+        <div class="flex flex-wrap items-center">
+          <div class="w-full lg:w-1/2">
+            <div class="mb-5 lg:mb-0">
+              <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+                Apa Yang Kamu Dapatkan Dari Sesi Belajar Di Little Lingo?
+              </h2>
+
+              <div class="flex flex-wrap">
+                <div class="w-full sm:w-1/2 lg:w-1/2">
+                  <div class="m-3">
+                    <div class="icon text-4xl text-blue-600 mb-3">
+                      <i class="lni lni-game"> </i>
+                    </div>
+                    <div class="features-content">
+                      <h4 class="text-gray-800 font-medium block mb-3">
+                        Fun & Interactive Learning
+                      </h4>
+                      <p>
+                        Each session includes games, songs, and fun activities to help you learn English in a joyful way!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/2">
+                  <div class="m-3">
+                    <div class="icon text-4xl text-blue-600 mb-3">
+                      <i class="lni lni-comments-alt"> </i>
+                    </div>
+                    <div class="features-content">
+                      <h4 class="text-gray-800 font-medium block mb-3">
+                        Speaking Practice
+                      </h4>
+                      <p>
+                        You will get to practice speaking English with your teacher and classmates using real conversation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/2">
+                  <div class="m-3">
+                    <div class="icon text-4xl text-blue-600 mb-3">
+                      <i class="lni lni-book"> </i>
+                    </div>
+                    <div class="features-content">
+                      <h4 class="text-gray-800 font-medium block mb-3">
+                        New Vocabulary & Phrases
+                      </h4>
+                      <p>
+                        Learn new words and useful phrases that you can use in daily life right away.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/2">
+                  <div class="m-3">
+                    <div class="icon text-4xl text-blue-600 mb-3">
+                      <i class="lni lni-write"> </i>
+                    </div>
+                    <div class="features-content">
+                      <h4 class="text-gray-800 font-medium block mb-3">
+                        Mini Quiz & Review
+                      </h4>
+                      <p>
+                        At the end of each session, you’ll play a short quiz to review what you learned and see your progress.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2">
+            <div class="mx-3 lg:mr-0 lg:ml-3">
+              <img src="assets/img/relaxing.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEEDBACK FORM SECTION -->
+    <section class="bg-gradient-to-r from-blue-500 to-blue-200 py-16" id="feedback">
+      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center text-white">
+        
+        <!-- KIRI -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-4">
+            Kami Terbuka untuk Masukan dan Pertanyaanmu.
+          </h2>
+          <p class="text-white text-lg mb-6">
+            Kami siap membantu Anda! Kirimkan pesan Anda untuk pertanyaan, saran, atau kebutuhan lainnya.
+          </p>
+        </div>
+
+        <!-- KANAN -->
+        <div>
+          <form action="send_feedback.php" method="POST" class="bg-white rounded-2xl p-8 shadow-lg space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <input type="text" name="first_name" placeholder="Name" class="bg-blue-100 text-black px-4 py-3 rounded-full w-full focus:outline-none" required />
+              <input type="text" name="last_name" placeholder="Surname" class="bg-blue-100 text-black px-4 py-3 rounded-full w-full focus:outline-none" required />
+            </div>
+            <input type="email" name="email" placeholder="Your Email" class="bg-blue-100 text-black px-4 py-3 rounded-full w-full focus:outline-none" required />
+            <textarea name="message" rows="4" placeholder="Message" class="bg-blue-100 text-black px-4 py-3 rounded-2xl w-full focus:outline-none" required></textarea>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-black px-6 py-3 rounded-full transition">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="bg-blue-600 py-16">
+      <div class="container px-8">
+        <div class="flex flex-wrap">
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+            <div class="mx-3 mb-8">
+              <div class="footer-logo mb-3">
+                <img src="assets/img/favicon.png" alt="" />
+              </div>
+              <p class="text-gray-300">
+                Belajar Bahasa Inggris seru yang bikin kamu semangat dan percaya diri.
+              </p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+            <div class="mx-3 mb-8">
+              <h3 class="font-bold text-xl text-white mb-5">Materi Pendukung</h3>
+              <ul>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                  >
+                    Youtube
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                    >Oxford English Dictionary</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                    >Britannica Kids Dictionary</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+            <div class="mx-3 mb-8">
+              <h3 class="font-bold text-xl text-white mb-5">About</h3>
+              <ul>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                  >
+                    Career
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                    >Team</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    "
+                    >Clients</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div> -->
+          <!-- <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+            <div class="mx-3 mb-8">
+              <h3 class="font-bold text-xl text-white mb-5">Find us on</h3>
+
+              <ul class="social-icons flex justify-start">
+                <li class="mr-4">
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-indigo-500
+                    "
+                  >
+                    <i class="lni lni-facebook-filled" aria-hidden="true"> </i>
+                  </a>
+                </li>
+                <li class="mr-4">
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-blue-400
+                    "
+                  >
+                    <i class="lni lni-twitter-filled" aria-hidden="true"> </i>
+                  </a>
+                </li>
+                <li class="mr-4">
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-red-500
+                    "
+                  >
+                    <i class="lni lni-instagram-filled" aria-hidden="true"> </i>
+                  </a>
+                </li>
+                <li class="mr-4">
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-indigo-600
+                    "
+                  >
+                    <i class="lni lni-linkedin-original" aria-hidden="true">
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- <section class="bg-gray-800 py-6 border-t-2 border-gray-700 border-dotted">
+      <div class="container px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full text-center">
+            <p class="text-white">
+              Designed and Developed by
+              <a
+                class="text-white duration-300 hover:text-blue-600"
+                href="https://tailwindtemplates.co"
+                rel="nofollow"
+              >
+                TailwindTemplates
+              </a>
+              and
+              <a
+                class="text-white duration-300 hover:text-blue-600"
+                href="https://uideck.com"
+                rel="nofollow"
+              >
+                UIdeck
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Go to Top Link -->
+    <a
+      href="#"
+      class="
+        back-to-top
+        w-10
+        h-10
+        fixed
+        bottom-0
+        right-0
+        mb-5
+        mr-5
+        flex
+        items-center
+        justify-center
+        rounded-full
+        bg-blue-600
+        text-white text-lg
+        z-20
+        duration-300
+        hover:bg-blue-400
+      "
+    >
+      <i class="lni lni-chevron-up"> </i>
+    </a>
+
+    <!-- All js Here -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

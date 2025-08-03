@@ -1,0 +1,39 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 20px 30px;
+  background: #00bfff;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-radius: 15px;
+  transition: background 0.3s ease;
+}
+
+.menu-item:hover {
+  background: #1e90ff;
+}

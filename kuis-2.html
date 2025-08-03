@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LEVEL 2 - Talking About Favorite Things</title>
+  <link rel="stylesheet" href="styles.css?v=2.0">
+</head>
+<body>
+  <div class="app">
+    <h1>Level 2: Talking About Favorite Things</h1>
+
+    <div id="start-screen">
+      <label for="student-name">Masukkan Nama Kamu:</label>
+      <input type="text" id="student-name" placeholder="Nama Lengkap" autocomplete="off" />
+      <button onclick="startQuiz()">Mulai Kuis</button>
+    </div>
+
+    <div class="quiz" id="quiz-container" style="display: none;">
+      <h2 id="question">Question goes here</h2>
+      <div id="answer-buttons"></div>
+      <button id="next-button" class="btn">Next</button>
+    </div>
+  </div>
+
+  <script>
+    const customApiUrl = "kuis-api-2.php";
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
