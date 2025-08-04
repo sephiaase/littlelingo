@@ -28,8 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
-  <title>LittleLingo - Belajar Bahasa Inggris</title>
+  <a href="index.html" class="flex items-center space-x-2 hover:opacity-80">
+      <img src="assets/img/logo.png" alt="LittleLingo Logo" class="h-10 w-auto">
+      <span class="text-xl font-semibold">LittleLingo</span>
+  </a>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
