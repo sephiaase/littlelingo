@@ -1,0 +1,9 @@
+# .gitignore
+node_modules/
+.env
+*.log
+xampp/
+webalizer/
+*.sql
+.DS_Store
+Thumbs.db
