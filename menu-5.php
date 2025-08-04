@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
       </a>
 
-      <a href="uploads/materi/My Experiences-5.pdf" download class="flex items-start space-x-4 hover:bg-blue-50 p-2 rounded-xl transition">
+      <a href="uploads/materi/My-Experiences-5.pdf" download class="flex items-start space-x-4 hover:bg-blue-50 p-2 rounded-xl transition">
         <img src="assets/img/menu-materi.png" alt="Materi PDF" class="w-24 h-24 rounded-2xl object-cover">
         <div>
           <span class="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">Materi Pembelajaran</span>
