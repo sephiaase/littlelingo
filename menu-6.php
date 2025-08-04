@@ -38,15 +38,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <header class="bg-white shadow-md relative">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between py-4 relative">
+
+      <!-- Logo bisa diklik -->
       <div class="flex items-center">
-        <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto mr-2" />
+        <a href="index.html" class="flex items-center hover:opacity-80">
+          <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto mr-2" />
+        </a>
       </div>
+
+      <!-- Judul halaman -->
       <div class="absolute left-1/2 transform -translate-x-1/2">
-        <span class="font-bold text-xl text-blue-600">My Future & My Dreams</span>
+        <span class="font-bold text-xl text-blue-600">My Future &amp; My Dreams</span>
       </div>
+
     </div>
   </div>
 </header>
+
 
 <section class="max-w-6xl mx-auto px-4 py-12">
   <div class="text-center mb-10">
