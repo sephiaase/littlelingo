@@ -40,9 +40,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <header class="bg-white shadow-md relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between py-4 relative">
-        <!-- Logo -->
+      
+        <!-- Logo (dibungkus <a>) -->
         <div class="flex items-center">
-          <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto mr-2" />
+          <a href="index.html" class="flex items-center hover:opacity-80">
+            <img src="assets/img/logo.png" alt="Logo" class="h-10 w-auto mr-2" />
+          </a>
         </div>
 
         <!-- Judul -->
